@@ -183,8 +183,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 5b63f3994fa564614bc02db929e74bf0,
-      type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 5b63f3994fa564614bc02db929e74bf0, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: b45fdf7d4d18d4976a0f41af1f822459, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: c5f84f329cc414e5fbb6ade8847edd6b, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: edfaef5545e4b4dd8a5f4ca052c41a2e, type: 3}
@@ -199,7 +198,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 524005372227920171}
+      - m_Target: {fileID: 1597750601556664950}
         m_TargetAssemblyTypeName: SceneButton, Assembly-CSharp
         m_MethodName: OnBack
         m_Mode: 1
@@ -398,8 +397,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 5b63f3994fa564614bc02db929e74bf0,
-      type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 5b63f3994fa564614bc02db929e74bf0, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: b45fdf7d4d18d4976a0f41af1f822459, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: c5f84f329cc414e5fbb6ade8847edd6b, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: edfaef5545e4b4dd8a5f4ca052c41a2e, type: 3}
@@ -518,11 +516,8 @@ GameObject:
   - component: {fileID: 8060165850180093893}
   - component: {fileID: 8060165850180093890}
   - component: {fileID: 8060165850180093891}
-  - component: {fileID: 8788545521051675331}
   - component: {fileID: 1597750601556664944}
   - component: {fileID: 1597750601556664950}
-  - component: {fileID: 3462027002526172390}
-  - component: {fileID: 524005372227920171}
   m_Layer: 5
   m_Name: LosePanel
   m_TagString: MainUICanvas
@@ -613,19 +608,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8788545521051675331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8060165850180093888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f766b694dd0b7e40a642c2a645afaf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objectToDestroy: {fileID: 8060165850180093888}
 --- !u!114 &1597750601556664944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,30 +621,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1597750601556664950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8060165850180093888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 116d5f397659138439474859d7ec33ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3462027002526172390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8060165850180093888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcf30a320b5283741a314386cb5a04e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &524005372227920171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -781,8 +739,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 5b63f3994fa564614bc02db929e74bf0,
-      type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 5b63f3994fa564614bc02db929e74bf0, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: b45fdf7d4d18d4976a0f41af1f822459, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: c5f84f329cc414e5fbb6ade8847edd6b, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: edfaef5545e4b4dd8a5f4ca052c41a2e, type: 3}
@@ -797,7 +754,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3462027002526172390}
+      - m_Target: {fileID: 1597750601556664944}
         m_TargetAssemblyTypeName: ReloadLevelComponen, Assembly-CSharp
         m_MethodName: Reload
         m_Mode: 1
@@ -904,6 +861,7 @@ GameObject:
   - component: {fileID: 8060165850628977763}
   - component: {fileID: 1316593912}
   - component: {fileID: 8382394293584220266}
+  - component: {fileID: 1958845760779072730}
   m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
@@ -987,6 +945,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scoreText: {fileID: 8060165850628977763}
 --- !u!114 &8382394293584220266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060165850628977761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de80171354a8e1547b753409c4b071df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scoreText: {fileID: 8060165850628977763}
+--- !u!114 &1958845760779072730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1092,6 +1063,7 @@ GameObject:
   - component: {fileID: 8060165850779755062}
   - component: {fileID: 1703797638}
   - component: {fileID: 1627601261636918969}
+  - component: {fileID: 5606206150125010932}
   m_Layer: 5
   m_Name: MoneyText
   m_TagString: Untagged
@@ -1175,6 +1147,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scoreText: {fileID: 8060165850779755062}
 --- !u!114 &1627601261636918969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060165850779755060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575f45aa7ed87294d9717cdc8ade2359, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scoreText: {fileID: 8060165850779755062}
+--- !u!114 &5606206150125010932
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
